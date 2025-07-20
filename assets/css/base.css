@@ -9,9 +9,8 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: var(--color-text);
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -19,11 +18,17 @@ body {
     color: var(--color-text);
     line-height: 1.6;
     letter-spacing: 0.5px;
+    overflow-x: hidden;
 }
 
 ::selection {
     background-color: var(--color-two);
     color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
 }
 
 .box-head {
