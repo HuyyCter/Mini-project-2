@@ -1,91 +1,85 @@
 :root {
-    --color-one: #8261ee;
-    --color-two: #ff589e;
-    --color-text: #1e1e1e;
-    --font: "Raleway", sans-serif;
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+  --font: "Raleway", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: var(--font);
-    color: var(--color-text);
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    overflow-x: hidden;
+  font-family: var(--font);
+  color: var(--color-text);
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
 }
 
 ::selection {
-    background-color: var(--color-two);
-    color: #fff;
+  background-color: var(--color-two);
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: var(--color-text);
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 .box-head {
-    text-align: center;
-    max-width: 570px;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 570px;
+  margin: 0 auto;
 }
-
-.box-head .inner-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0 0 30px 0;
+.box-head__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 30px 0;
 }
-
-.box-head .inner-desc {
-    font-size: 16px;
-    color: #fff;
-    margin: 0 0 30px 0;
+.box-head__desc {
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0 30px 0;
 }
 
 @media (max-width: 767.98px) {
-    .box-head .inner-title {
-        font-size: 24px;
-    }
-
-    .box-head .inner-desc {
-        font-size: 14px;
-    }
+  .box-head__title {
+    font-size: 24px;
+  }
+  .box-head__desc {
+    font-size: 14px;
+  }
 }
-
 /* Button */
 .button {
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 500;
-    display: inline-block;
-    transition: 0.4s ease;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  transition: 0.4s ease;
 }
-
-.button.button-one {
-    background-color: var(--color-one);
+.button--one {
+  background-color: var(--color-one);
 }
-
-.button.button-one:hover {
-    background-color: var(--color-two);
+.button--one:hover {
+  background-color: var(--color-two);
 }
-
-.button.button-two {
-    background-color: var(--color-two);
+.button--two {
+  background-color: var(--color-two);
 }
-
-.button.button-two:hover {
-    background-color: var(--color-one);
+.button--two:hover {
+  background-color: var(--color-one);
 }
 
 /* End Button */
+
+/*# sourceMappingURL=base.css.map */
